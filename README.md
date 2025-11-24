@@ -1,13 +1,13 @@
 # Stability-Analysis-using-Polar-Plot
 ## Aim:
-To analyse the stability of the system having open loop transfer function, G(S)=10/(S(1+0.5S)(1+0.2S)) using polar plot and verify it using MATLAB.  
+To analyse the stability of the system having open loop transfer function, G(S)=10/(S(1+0.5S)(1+0.2S)) using polar plot and verify it using MATLAB. 
 ## Apparatus Required:
 Computer with MATLAB software
 
 ## Theory:
-![WhatsApp Image 2025-11-17 at 14 13 49_6583127a](https://github.com/user-attachments/assets/0d6c2e13-2473-43dc-9473-ae11e7791f50)
-![WhatsApp Image 2025-11-17 at 14 13 50_b681a79f](https://github.com/user-attachments/assets/68e9dff4-d48d-46d6-a865-3c55b0a50330)
-![WhatsApp Image 2025-11-23 at 16 56 56_c60a0b90](https://github.com/user-attachments/assets/a94301ca-0213-4cb9-ad9a-724549b5c743)
+![3](https://github.com/user-attachments/assets/dade5c0e-af6f-4358-ae93-ac72219a7789)
+![4](https://github.com/user-attachments/assets/eb177c38-eaa3-4618-9478-2da8854ef183)
+<img width="1054" height="1364" alt="image" src="https://github.com/user-attachments/assets/40a073aa-952d-4b40-bc75-0323b6a0aa34" />
 
 
 
@@ -42,12 +42,12 @@ else
 end
 ```
 ## Output:
-<img width="1789" height="825" alt="Screenshot 2025-11-16 104814" src="https://github.com/user-attachments/assets/2036c1eb-5995-4170-97e6-280623eb9e5e" />
+<img width="1053" height="985" alt="image" src="https://github.com/user-attachments/assets/24191fc3-ac73-4201-96dd-624d62738f40" />
 
 ## Result:
-Thus the polar plot for the given transfer function was drawn and verified using MATLAB. <br>
-Gain margin = -23.10 db<br>
-Phase Margin = -50.48 degree<br>
-Gain crossover frequency = 0.9534 rad/s<br>
-Phase crossover frequency =0.3162 rad/s <br>
-The system is  ------------
+Thus the polar plot for the given transfer function was drawn and verified using MATLAB.<br>
+Gain margin = 0.7<br>
+Phase Margin = -8.8865<br>
+Gain crossover frequency = 3.7565<br>
+Phase crossover frequency = 3.1623<br>
+The system is unstable.<br>
